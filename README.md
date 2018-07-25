@@ -1,0 +1,2 @@
+# menuconfig
+standalone crossplatform menuconfig
