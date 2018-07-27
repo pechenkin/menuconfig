@@ -1,10 +1,8 @@
-#                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([mconf], [VERSION], [BUG-REPORT-ADDRESS])
+AC_INIT([mconf], [4.18], [BUG-REPORT-ADDRESS])
 AC_CONFIG_SRCDIR([src/mconf.c])
-#AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
 AC_PROG_CC
