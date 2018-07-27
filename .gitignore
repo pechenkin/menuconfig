@@ -1,0 +1,15 @@
+*.lex.c
+*.tab.c
+*.o
+deps/
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+config.status
+configure
+depcomp
+install-sh
+missing
+
