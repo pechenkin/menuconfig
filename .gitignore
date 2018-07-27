@@ -1,11 +1,14 @@
 *.lex.c
 *.tab.c
 *.o
-deps/
+src/mconf
+config.log
+.deps
+.dirstamp
 Makefile
 Makefile.in
 aclocal.m4
-autom4te.cache/
+autom4te.cache
 compile
 config.status
 configure
