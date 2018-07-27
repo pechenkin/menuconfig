@@ -1,14 +1,14 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.59])
-AC_INIT([standalone crossplatform menuconfig], [VERSION], [BUG-REPORT-ADDRESS])
-#AC_CONFIG_SRCDIR([kconf_id.c])
+AC_PREREQ([2.69])
+AC_INIT([mconf], [VERSION], [BUG-REPORT-ADDRESS])
+AC_CONFIG_SRCDIR([src/mconf.c])
 #AC_CONFIG_HEADERS([config.h])
-AM_INIT_AUTOMAKE([])
 
 # Checks for programs.
 AC_PROG_CC
+AM_INIT_AUTOMAKE([subdir-objects])
 AC_PROG_YACC
 AC_PROG_LEX
 
@@ -30,5 +30,6 @@ AC_CHECK_LIB([ncurses], [delwin])
 #AC_FUNC_REALLOC
 #AC_CHECK_FUNCS([bzero gettimeofday memmove memset mkdir regcomp strcasecmp strchr strcspn strdup strncasecmp strndup strpbrk strrchr strspn strtol strtoul strtoull])
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile
+                 src/Makefile])
 AC_OUTPUT
