@@ -15,6 +15,7 @@
 #include <unistd.h>
 
 #include "lkc.h"
+#include "platform.h"
 
 struct conf_printer {
 	void (*print_symbol)(FILE *, struct symbol *, const char *, void *);
@@ -904,7 +905,7 @@ static int conf_split_config(void)
 			d = path;
 			while ((d = strchr(d, '/'))) {
 				*d = 0;
-				if (stat(path, &sb) && mkdir(path, 0755)) {
+				if (stat(path, &sb) && MKDIR(path, 0755)) {
 					res = 1;
 					goto out;
 				}

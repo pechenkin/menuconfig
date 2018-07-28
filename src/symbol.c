@@ -7,8 +7,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <regex.h>
-#include <sys/utsname.h>
 
+#include "platform.h"
 #include "lkc.h"
 
 struct symbol symbol_yes = {
