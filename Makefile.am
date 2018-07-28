@@ -16,5 +16,6 @@ EXTRA_DIST = \
     src/images.c \
     src/mconf.c \
     src/preprocess.c \
-    src/util.c
+    src/util.c \
+    src/platform.h
 CLEANFILES = src/zconf.lex.c

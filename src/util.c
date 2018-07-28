@@ -8,6 +8,8 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <string.h>
+
+#include "platform.h"
 #include "lkc.h"
 
 /* file already present in list? If not add it */

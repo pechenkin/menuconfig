@@ -1,0 +1,10 @@
+standalone crossplatform menuconfig 
+
+ncurses build
+
+./configure --host=$TARGETMACH --prefix=/usr/x86_64-w64-mingw32 --without-debug --without-ada --enable-overwrite --with-cxx --without-ada --enable-warnings --enable-assertions --disable-home-terminfo --enable-database --enable-sp-funcs --enable-term-driver --enable-interop --disable-termcap --with-progs --enable-pc-files 
+
+
+pcre build
+
+./configure --host=$TARGETMACH --prefix=/usr/x86_64-w64-mingw32/
