@@ -1,10 +1,24 @@
 standalone crossplatform menuconfig 
 
+This is the menuconfig functionality from linux kernel 4.18 
+and tests from kbuild tree (kernel/git/mmarek/kbuild.git)
+extracted into a separate application for POSIX OS and
+Windows by cross compiling. It may be built, from the sources
+provided, using the command sequence:--
+
+  ./configure [--options...] && make
+
+For a list of available configuration options, run:--
+
+  ./configure --help
+
 ncurses build
 
 ./configure --host=$TARGETMACH --prefix=/usr/x86_64-w64-mingw32 --without-debug --without-ada --enable-overwrite --with-cxx --without-ada --enable-warnings --enable-assertions --disable-home-terminfo --enable-database --enable-sp-funcs --enable-term-driver --enable-interop --disable-termcap --with-progs --enable-pc-files 
 
 
-pcre build
+gnurx build
 
 ./configure --host=$TARGETMACH --prefix=/usr/x86_64-w64-mingw32/
+
+
