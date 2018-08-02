@@ -5,6 +5,7 @@ src/mconf
 config.log
 .deps
 .dirstamp
+.cache
 Makefile
 Makefile.in
 aclocal.m4

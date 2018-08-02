@@ -1,0 +1,3 @@
+TESTS = test.sh
+
+all :
