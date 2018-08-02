@@ -1,0 +1,4 @@
+TESTS=test.sh
+
+all :
+	$()
