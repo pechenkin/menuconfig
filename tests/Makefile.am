@@ -1,4 +1,3 @@
-TESTS=test.sh
+TESTS = test.sh
 
 all :
-	$()
