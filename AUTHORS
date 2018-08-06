@@ -1,0 +1,8 @@
+This is the menuconfig functionality from linux kernel 4.18 and tests 
+from kbuild tree (kernel/git/mmarek/kbuild.git). Сomprehensive list 
+of all authors see in the Linux Kernel documentation. Porting under
+mingw was implemented by pechenkin (n.pechenkin@mail.ru).
+
+
+
+
