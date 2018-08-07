@@ -1,6 +1,7 @@
 ## Standalone crossplatform menuconfig 
 
 ![alt text](https://raw.githubusercontent.com/pechenkin/menuconfig/master/img/img_linux.png)
+![alt text](https://raw.githubusercontent.com/pechenkin/menuconfig/master/img/img_win.png)
 
 ### Intro
 
