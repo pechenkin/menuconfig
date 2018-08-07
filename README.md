@@ -11,11 +11,15 @@ extracted into a separate application for POSIX and
 Windows by cross compiling. It may be built, from the sources
 provided, using the command sequence:
 
-  ./configure [--options...] && make
+```
+$  ./configure [--options...] && make
+```
 
 For a list of available configuration options, run:
 
-  ./configure --help
+```
+$  ./configure --help
+```
 
 ### How to build menuconfig for mingw32
 
