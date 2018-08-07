@@ -1,7 +1,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([menuconfig], [4.18], [BUG-REPORT-ADDRESS])
+AC_INIT([menuconfig], [0.4.18], [n.pechenkin@mail.ru])
 AC_CONFIG_SRCDIR([src/mconf.c])
 
 AC_CANONICAL_HOST
